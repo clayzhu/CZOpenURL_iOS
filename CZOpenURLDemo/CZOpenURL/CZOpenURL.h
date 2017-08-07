@@ -13,9 +13,9 @@
 
 /** 调用系统的 openURL: */
 + (void)openURL:(NSString *)urlString;
-/** 直接拨打电话 */
+/** 直接拨打电话（在 iOS 10.3 以上的系统中，该方法也会先弹出提示） */
 + (void)telephone:(NSString *)phone;
-/** 先提示，点确定拨打电话 */
+/** 先弹出提示，点确定拨打电话 */
 + (void)telephonePrompt:(NSString *)phone;
 /** 打开本应用的系统设置 */
 + (void)openAppSetting;
