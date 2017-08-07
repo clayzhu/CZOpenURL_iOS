@@ -13,6 +13,7 @@
 		6F0E96931F3820CF006DBE91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F0E96911F3820CF006DBE91 /* Main.storyboard */; };
 		6F0E96951F3820CF006DBE91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F0E96941F3820CF006DBE91 /* Assets.xcassets */; };
 		6F0E96981F3820CF006DBE91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F0E96961F3820CF006DBE91 /* LaunchScreen.storyboard */; };
+		6F0E96A21F382100006DBE91 /* CZOpenURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F0E96A11F382100006DBE91 /* CZOpenURL.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		6F0E96941F3820CF006DBE91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6F0E96971F3820CF006DBE91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6F0E96991F3820CF006DBE91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F0E96A01F382100006DBE91 /* CZOpenURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZOpenURL.h; sourceTree = "<group>"; };
+		6F0E96A11F382100006DBE91 /* CZOpenURL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZOpenURL.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +46,7 @@
 			isa = PBXGroup;
 			children = (
 				6F0E96871F3820CF006DBE91 /* CZOpenURLDemo */,
+				6F0E969F1F382100006DBE91 /* CZOpenURL */,
 				6F0E96861F3820CF006DBE91 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -77,6 +81,15 @@
 				6F0E96891F3820CF006DBE91 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6F0E969F1F382100006DBE91 /* CZOpenURL */ = {
+			isa = PBXGroup;
+			children = (
+				6F0E96A01F382100006DBE91 /* CZOpenURL.h */,
+				6F0E96A11F382100006DBE91 /* CZOpenURL.m */,
+			);
+			path = CZOpenURL;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +163,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F0E96A21F382100006DBE91 /* CZOpenURL.m in Sources */,
 				6F0E96901F3820CF006DBE91 /* ViewController.m in Sources */,
 				6F0E968D1F3820CF006DBE91 /* AppDelegate.m in Sources */,
 				6F0E968A1F3820CF006DBE91 /* main.m in Sources */,
